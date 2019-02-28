@@ -25,4 +25,3 @@ if len(sys.argv) > 1:
     elseif (sys.argv[1] == '-a'):
         DisplayApple()
 
-#tmp1
