@@ -25,3 +25,5 @@ if len(sys.argv) > 1:
     elseif (sys.argv[1] == '-a'):
         DisplayApple()
 
+# tmp1: this is testing the branch and checkout. this message should only
+#       be visible on branch: tmp1.
