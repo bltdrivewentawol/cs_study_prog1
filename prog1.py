@@ -2,7 +2,10 @@
 
 import sys
 
+
 def DisplayHelp():
+    """Displays the Help info at the command line."""
+    
     print(
 """\
 Usage: first_program.py [OPTIONS]
@@ -12,16 +15,15 @@ Usage: first_program.py [OPTIONS]
 """)
 
 def DisplayApple():
+    """Prints to the screen the word \"Apple\"."""
     print("Apple!\n")
 
+
 # Main
-
-#print("The size of sys.argv = ", len(sys.argv), "\n")
-
 if len(sys.argv) > 1:
     command_line_arguments_count = len(sys.argv)
     if (sys.argv[1] == '-h') or (sys.argv[1] == '--help'):
         DisplayHelp()
-    elseif (sys.argv[1] == '-a'):
+    elif (sys.argv[1] == '-a'):
         DisplayApple()
 
